@@ -3,9 +3,39 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Quiz-App</title>
+	<link rel="stylesheet" href="styal.css">
 </head>
 <body>
-	<h1>hello world</h1>
+	<div class="container">
+		<h2 id="quiz-Q">question</h2>
+
+		<ul> 
+			<li>
+				<input type="radio" name="quiz-option" class="answer" id="option-a">
+				<label for="option-a" class="text_option_a">option A</label>
+			</li>
+
+			<li>
+				<input type="radio" name="quiz-option" class="answer" id="option-b">
+				<label for="option-b" class="text_option_b">option B</label>
+			</li>
+
+			<li>
+				<input type="radio" name="quiz-option" class="answer" id="option-c">
+				<label for="option-c" class="text_option_c">option C</label>
+			</li>
+
+			<li>
+				<input type="radio" name="quiz-option" class="answer" id="option-d">
+				<label for="option-d" class="text_option_d">option D</label>
+			</li>
+		</ul>
+ 
+		<button id="submit">submit</button>
+		
+	</div>
+
+	<script src="javascript.js"></script> 
 </body>
 </html>

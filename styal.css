@@ -3,3 +3,61 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+body {
+	background-color: aquamarine;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100vh;
+}
+
+.container {
+	/* border: 2px solid black; */
+	width: 400px;
+	height: 300px;
+	box-shadow: 0 0 10px 0 black;
+	border-radius: 10px;
+	background-color: white;
+	position: relative;
+}
+
+#quiz-Q {
+	font-size: 1.5rem;
+	padding: 20px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	margin-left: 30px;
+}
+
+li {
+	font-size: 1.2rem;
+	margin-bottom: 15px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+#submit {
+	background-color: yellow;
+	border: none;
+	color: white;
+	font-size: 1.2rem;
+
+	display: block;
+	width: 100%;
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	padding: 7.5px;
+	border-radius: 10px;
+}
+
+#submit:hover {
+	background-color: rgb(241, 241, 76);
+	cursor: pointer;
+}
